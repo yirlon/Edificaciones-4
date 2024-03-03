@@ -113,7 +113,7 @@ AUTH_USER_MODEL='user_app.Account'
 # }
 DATABASES = {
     'default': dj_database_url.config(
-        default='postgres://postgres:12345@localhost/postgres', 
+        default='postgresql://postgres:12345@localhost/postgres', 
         conn_max_age=600
     )
 }
