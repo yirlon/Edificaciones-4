@@ -1,0 +1,3 @@
+#arhivos q no se van a subir
+db.sqlite3
+__pycache__
