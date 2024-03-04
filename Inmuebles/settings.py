@@ -185,10 +185,10 @@ REST_FRAMEWORK = {
         'comentario-detail': '5/day', 
         'edificacion-list': '3000/day'
      }, 
-    # 'DEFAULT_RENDERER_CLASSES':
-    # ('rest_framework.renderers.JSONRenderer', 
+    'DEFAULT_RENDERER_CLASSES':
+    ('rest_framework.renderers.JSONRenderer', 
      
-    # ),
+    ),
 }
 from datetime import timedelta
 
